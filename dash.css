@@ -1,0 +1,76 @@
+/* Estilos para o botão */
+.openbtn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #13293d;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .openbtn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px auto;
+    transition: all 0.3s ease;
+  }
+  
+  .openbtn.aberto span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .openbtn.aberto span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .openbtn.aberto span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  
+  /* Estilos para o menu lateral */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100vh;
+    background-color: #13293d;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+  }
+  
+  .sidebar.aberto {
+    left: 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .sidebar a:hover {
+    color: #ccc;
+  }
+  
+  .conteudo-principal {
+    margin-left: 20px;
+    padding: 20px;
+  }

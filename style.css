@@ -1,0 +1,78 @@
+--- primeira página ---
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{ min-width: 1980px;
+    margin: 0;
+    padding: 1.0rem 1,5rem;
+    display: flex;
+    color: #13293d;}
+
+body{ background: #f3f3f3;
+    color: #ffffff;}
+
+nav.nav-bar{
+    max-width: 1980px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1.0rem 1,5rem;
+    background-color: #13293d;}
+
+a{
+    font-family: "Arial narrow";
+    font-weight: 100;
+    font-size: 15px;
+    text-transform: uppercase;}
+
+a.logo{
+    color: #ffffff;
+    text-decoration: none;
+    display: flex-box;}
+
+a.nav-link{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2.0rem 2rem;
+    transition: blackground-color 0.3s ease;}
+
+a.nav-link:hover{ background-color: #0e3043;}
+
+h1.logo-text{
+    font-family: 'Times New Roman';
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #268fcb;}
+
+p.principal{
+    font-family: 'Franklin Gothic Medium','Arial Narrow';
+    font-size: 20px;
+    font-weight: 200;
+    color: #268fcb;}
+
+main{ max-width: 1980px;
+    margin: auto;
+    padding: 3.0rem 8rem;
+
+
+    display: flex-box;}
+
+form{ font-display: 4px;
+    font-size: 35px;
+    text-align: center;
+
+color: #268fcb;
+background-position: 50px, 50px, 50px, 50px;}
+
+button{ font-size: 1.0rem;}
+
+input{font-size: 1.0rem;
+    padding: 0,3rem;}
+
+footer{text-align: center;
+    color: #000000;}
