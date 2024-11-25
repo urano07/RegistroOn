@@ -17,3 +17,14 @@ Onde sera exibido os dados do usuario
   Data e Hora
   Botão de Comfirmação
 
+Em seguida abrira um Dashboard onde será possivel visualizar
+horas trabalhadas com o filtro de 
+  
+  Semana
+  15 Dias
+  Mês
+
+Destaque Para uma Versão Empresa para uso do RH ou Contratante 
+onde será possivel monitorar os dados de todos os usuarios cadastrados!
+  
+
